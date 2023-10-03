@@ -1,0 +1,42 @@
+:root {
+    --max-width: 1100px;
+    --border-radius: 12px;
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+        'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+        'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+    --base-color-1: #C83C21;
+    --base-color-2: #1D3557;
+    --base-color-3: #A8DADC;
+    --base-color-4: #F1FAEE;
+    --base-color-5: #457B9D;
+    --base-color-6: #DFC034;
+    --base-color-7: #2F1F6F;
+    --base-color-8: #7338e0;
+
+    --base-gradient-1: linear-gradient(45deg, #8330e1 35%, #d6178b 100%);
+    --base-gradient-2: linear-gradient(90deg, var(--base-color-6) 0%, var(--base-color-3) 101.62%);
+
+    --background-color: #ffffff;
+    --background-color-dark: #000000;
+    --background-pattern: url('../../../../public/assets/images/home-pattern.svg');
+
+    --font-medium: 30px;
+    --font-large: 60px;
+    --font-enough: 300px;
+
+    --light: 300;
+    --normal: 400;
+    --semi: 600;
+    --bold: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {}
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+}
